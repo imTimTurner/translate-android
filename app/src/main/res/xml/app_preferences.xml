@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:key="live_translation"
+        android:defaultValue="true"
+        android:title="@string/live_translate" />
+
+    <SwitchPreferenceCompat
+        android:key="auto_detect_lang"
+        android:defaultValue="true"
+        android:title="@string/auto_detect_lang" />
+</PreferenceScreen>

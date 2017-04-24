@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/swap_button"
+            android:layout_width="?actionBarSize"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@null"
+            android:src="@drawable/swap_horizontal_light_24dp" />
+
+        <TextView
+            android:id="@+id/origin_lang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/swap_button"
+            android:layout_toStartOf="@id/swap_button"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="4dp"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            tools:text="Английский" />
+
+        <TextView
+            android:id="@+id/target_lang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/swap_button"
+            android:layout_toRightOf="@id/swap_button"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="4dp"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            tools:text="Русский" />
+
+    </RelativeLayout>
+</android.support.design.widget.AppBarLayout>

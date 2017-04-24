@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath "io.realm:realm-gradle-plugin:3.1.2"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    projectVersionCode = 1
+    projectVersionName = '0.1.0'
+
+    minSdkVersion = 16
+    targetSdkVersion = 25
+    compileSdkVersion = 25
+    buildToolsVersion = '25.0.2'
+
+    supportLibraryVersion = '25.3.1'
+    butterknifeVersion = '8.5.1'
+    retrofitVersion = '2.2.0'
+    googleGsonVersion = '2.8.0'
+    rxAndroidVersion = '2.0.1'
+    rxJavaVersion = '2.0.1'
+    daggerVersion = '2.8'
+    javaxAnnotationVersion = '1.0'
+
+    espressoVersion = '2.2.2'
+    junitVersion = '4.12'
+}

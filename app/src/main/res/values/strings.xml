@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Переводчик</string>
+
+    <string name="select_lang_label">Выберите язык</string>
+    <string name="favorites_label">Избранное</string>
+    <string name="history_label">История</string>
+    <string name="settings_label">Настройки</string>
+
+    <string name="search_in_favorites">Найти в избранном</string>
+    <string name="search_in_history">Найти в истории</string>
+    <string name="search_language">Найти язык</string>
+
+    <string name="empty_langs_text">Языки отсутствуют</string>
+    <string name="empty_favorites_text">Нет переводов в избранном</string>
+    <string name="empty_history_text">Нет истории переводов</string>
+
+    <string name="error">Ошибка</string>
+    <string name="error_translation_text">Не удалось выполнить запрос на сервер перевода.
+        Проверьте подключение к сети интернет и повторите попытку.</string>
+    <string name="type">Введите текст…</string>
+
+    <string name="live_translate">Автоперевод</string>
+    <string name="auto_detect_lang">Авто определение языка</string>
+</resources>
